@@ -24,6 +24,7 @@ app.use(express.static("public"));
 
 app.use("/", (req, res) => {
   db;
+  res.send("API de tareas");
 });
 
 app.listen(port, () => {
